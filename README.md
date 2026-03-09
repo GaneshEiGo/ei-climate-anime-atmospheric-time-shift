@@ -1,10 +1,12 @@
-# Ei Climate — Atmospheric Time Explorer
+# Ei Climate — Anime Atmospheric Time Shift Explorer
 
-Ei Climate is an experimental platform that transforms global weather data into an interactive visual exploration of Earth's atmosphere.
+Ei Climate is an experimental weather exploration platform that visualizes Earth's atmosphere through a dynamic 2D anime-style planetary map.
 
-Instead of reading weather information through static forecasts and numerical tables, Ei Climate allows users to observe weather systems moving across the planet in real time and across future forecasts.
+Instead of presenting weather through static icons and numerical forecasts, Ei Climate transforms global atmospheric data into a living visual system where weather patterns move, evolve, and change across time.
 
-The platform presents weather as a living system where atmospheric patterns evolve continuously across space and time.
+Users can explore the planet's weather not only in the present moment, but across future forecasts by shifting the entire atmospheric map forward in time.
+
+The result is an interactive system where users observe weather as a global phenomenon rather than isolated local forecasts.
 
 Users do not simply check the weather.
 
@@ -14,109 +16,119 @@ They explore the atmosphere.
 
 # Vision
 
-Weather affects every part of human life, yet most weather applications present information in fragmented forms.
+Most weather applications show information through simple forecasts tied to specific cities.
 
-Typical weather apps focus on:
+These systems focus on:
 
-local city forecasts  
-small weather icons  
 temperature numbers  
+small weather icons  
+daily forecasts  
 
-While these tools are useful, they hide the larger atmospheric systems responsible for weather.
+While these tools are useful, they hide the larger atmospheric systems responsible for weather across the planet.
 
-Ei Climate proposes a different perspective.
+Storm systems, wind circulation, and temperature zones operate on a planetary scale.
 
-Instead of viewing weather as isolated local forecasts, users observe the global atmosphere as a dynamic system.
+Ei Climate introduces a different approach.
 
-Storms move across oceans.
+The platform represents Earth as a visual atmospheric system where users can observe how weather evolves across the entire planet.
 
-Wind currents connect continents.
-
-Temperature zones shift across the planet.
-
-By visualizing weather at planetary scale, users can intuitively understand how atmospheric systems interact.
+Instead of isolated weather reports, users experience a global view of atmospheric behavior.
 
 ---
 
 # Core Idea
 
-Ei Climate transforms Earth into a dynamic weather visualization map.
+Ei Climate represents the Earth's atmosphere through a dynamic animated world map.
 
-The platform converts complex atmospheric data into visual layers that can be explored interactively.
+Weather systems are visualized as layers across the planet, allowing users to observe how atmospheric patterns interact.
 
-Users can observe:
+These patterns include:
 
-temperature patterns  
+temperature distribution  
 wind circulation  
-storm movement  
-cloud coverage  
-precipitation systems  
+cloud systems  
+rainfall patterns  
+storm formation  
 
-The map becomes a living representation of Earth's atmosphere.
+The platform transforms weather data into an intuitive visual experience.
+
+---
+
+# 2D Anime-Style Visualization
+
+Ei Climate uses a stylized 2D visual design inspired by anime and animated weather graphics.
+
+Instead of hyper-realistic simulations, the platform focuses on clear and expressive visual representation.
+
+Design features include:
+
+soft color gradients  
+stylized clouds and rain  
+animated wind particles  
+expressive weather icons  
+
+The anime-inspired aesthetic makes the system visually engaging while maintaining clarity.
+
+This approach makes complex atmospheric data easier to understand.
 
 ---
 
 # Global Atmospheric Map
 
-The central interface of Ei Climate is an interactive 2D map of the Earth.
+The central interface of Ei Climate is an interactive 2D world map.
 
 Users can:
 
 zoom across continents  
 pan across oceans  
-tap specific locations  
-explore weather systems globally  
+tap locations  
+observe atmospheric systems  
 
-The map acts as a real-time visualization of atmospheric conditions.
-
-Possible technologies include:
-
-Leaflet  
-Mapbox GL JS  
-
-These mapping systems allow smooth interactions and layered visualizations.
+The map behaves like a living representation of the planet's atmosphere.
 
 ---
 
-# Atmospheric Visualization Layers
+# Atmospheric Layers
 
-Weather data is visualized through multiple atmospheric layers.
+Weather data is represented through multiple visual layers.
 
-Each layer represents a different aspect of Earth's atmospheric behavior.
+Each layer represents a different atmospheric element.
 
-Users can enable or disable layers to focus on specific data.
+Users can toggle layers to explore specific aspects of weather.
 
 ---
 
 ## Temperature Layer
 
-The temperature layer visualizes global temperature distribution using color gradients.
+Global temperature distribution is visualized using color gradients.
 
-Example mapping:
+Example:
 
-dark blue — freezing temperatures  
+deep blue — freezing temperatures  
 light blue — cold regions  
 green — moderate climate  
-yellow — warm temperatures  
+yellow — warm areas  
 red — extreme heat  
 
-This allows users to instantly understand temperature patterns across the planet.
+This allows users to quickly identify temperature patterns.
 
 ---
 
 ## Wind Layer
 
-Wind is visualized using animated particle flows.
+Wind patterns are represented through animated flowing particles.
 
-Wind particles move along atmospheric circulation paths.
+These particles move along real atmospheric circulation paths.
 
-This allows users to observe:
+Users can observe wind direction and speed across the planet.
 
-wind direction  
-wind speed  
-global air circulation  
+---
 
-The system reveals how air moves between continents and oceans.
+## Cloud Layer
+
+Cloud systems appear as animated cloud formations across the map.
+
+Cloud movement helps users observe how weather systems develop.
 
 ---
 
@@ -124,161 +136,105 @@ The system reveals how air moves between continents and oceans.
 
 Rain and snowfall appear as animated overlays.
 
-Possible visual indicators include:
-
-rainfall zones  
-snowfall regions  
-storm clusters  
-
-These visualizations allow users to quickly identify precipitation areas.
-
----
-
-## Cloud Layer
-
-Cloud systems are visualized as animated cloud patterns across the globe.
-
-Users can observe how cloud systems evolve and travel across regions.
-
-Cloud movement often indicates developing weather systems.
+These layers allow users to identify rainfall zones and snowfall areas.
 
 ---
 
 ## Storm Tracking
 
-Major weather systems such as hurricanes, cyclones, and large storm fronts can be tracked across the map.
+Large weather systems such as hurricanes or cyclones can be tracked visually.
 
-Storm systems may display:
-
-movement direction  
-storm intensity  
-predicted path  
-
-This allows users to understand how large weather systems develop and travel.
+Storms display movement paths and intensity indicators.
 
 ---
 
-# Atmospheric Time Navigation
+# Planetary Time Shift System
 
-Weather is a constantly evolving system.
+Weather constantly changes across time.
 
-Ei Climate introduces a time navigation system that allows users to explore atmospheric changes across time.
+Ei Climate introduces a **Planetary Time Shift system** that allows users to view the entire Earth's atmosphere at different moments.
 
-Users can move forward through weather forecasts and observe how atmospheric systems evolve.
+Instead of simply displaying forecasts, the platform shifts the entire global map to represent atmospheric conditions for a chosen time.
 
 ---
 
-## Forecast Time Controls
+## Global Time Selection
 
-The platform allows users to explore weather forecasts across multiple time horizons.
+Users can select different time horizons.
 
-Example forecast intervals include:
+Examples include:
 
 5 minutes ahead  
 30 minutes ahead  
 1 hour ahead  
-Tomorrow  
-Several days ahead  
-Up to 10–15 days into the future  
+tomorrow  
+several days ahead  
+specific future dates  
 
-The global weather map dynamically updates as the user changes the selected time.
+When a time is selected, the entire map updates to represent predicted atmospheric conditions for that moment.
 
 ---
 
-## Time Slider Interface
+## Dynamic Planet Map
 
-A time slider allows users to smoothly navigate across weather forecasts.
+When time changes, the system recalculates the planetary weather state.
 
-The slider enables movement between:
+Users can observe:
 
-past weather conditions  
-current weather  
-future forecasts  
+storm systems moving  
+temperature zones shifting  
+wind patterns evolving  
+rainfall areas expanding or disappearing  
 
-This allows users to explore atmospheric evolution continuously.
+This creates a planetary weather simulation experience.
 
 ---
 
 ## Weather Playback Mode
 
-Users can enable playback mode to watch weather systems evolve automatically.
+The platform includes a playback mode where users can watch weather systems evolve automatically across time.
 
 Examples include:
 
-storm systems forming and moving  
-temperature patterns shifting  
-wind circulation changes  
-precipitation zones expanding or disappearing  
+storm formation  
+storm movement  
+cold front propagation  
+rainfall development  
 
-Playback mode allows users to visually understand how weather evolves across time.
-
----
-
-## Future Date Selection
-
-Users can also select a specific future date.
-
-The system will display predicted atmospheric conditions for that day.
-
-This allows users to explore questions such as:
-
-What will the weather look like tomorrow?
-
-How will storms move this week?
-
-What will global temperature distribution look like next week?
+Playback mode transforms weather forecasting into a visual experience.
 
 ---
 
 # Weather Information Cards
 
-When users tap a location on the map, a weather information card appears.
+Users can tap any location on the map.
 
-The card displays detailed local data including:
+A weather information card will appear displaying:
 
 temperature  
 wind speed and direction  
 humidity  
 precipitation probability  
-forecast summary  
+weather summary  
 
-This combines large-scale atmospheric visualization with precise local information.
-
----
-
-# Design Philosophy
-
-Ei Climate uses a clean and visually friendly design approach.
-
-The visual style is inspired by stylized 2D interfaces.
-
-Design characteristics include:
-
-soft color palettes  
-animated weather elements  
-flowing wind particles  
-minimal interface elements  
-
-The goal is to make complex atmospheric data intuitive and visually engaging.
+This combines global atmospheric visualization with local weather details.
 
 ---
 
 # Why This Matters
 
-Weather systems are highly interconnected.
+Weather systems are complex and interconnected.
 
-Most weather applications focus on local forecasts without showing the larger atmospheric systems behind them.
+Most weather apps show only local forecasts.
 
-Ei Climate provides a planetary perspective on weather.
+Ei Climate allows users to understand how global atmospheric systems behave.
 
 Potential benefits include:
 
-improved climate education  
-visual understanding of atmospheric dynamics  
-better awareness of weather systems  
-interactive exploration of global climate behavior  
-
-The platform aims to transform how people understand weather.
+better weather awareness  
+visual climate education  
+understanding of storm development  
+intuitive exploration of atmospheric systems
 
 ---
 
@@ -288,10 +244,9 @@ Ei Climate is structured as a layered visualization system.
 
 Frontend
 
-interactive world map  
-weather visualization layers  
+interactive 2D world map  
+anime-style weather visualization  
 time navigation interface  
-weather cards  
 
 Backend
 
@@ -303,29 +258,29 @@ Data Layer
 
 global weather datasets  
 forecast models  
-climate data sources  
+climate data  
 
 Visualization Layer
 
 temperature gradients  
 wind particle systems  
-cloud animation  
+cloud animations  
 precipitation effects  
 
 ---
 
 # Development Status
 
-Ei Climate is currently in the concept and architecture stage.
+Ei Climate is currently in the concept and architecture phase.
 
 The project focuses on designing:
 
-global atmospheric visualization  
-forecast time navigation  
-weather layer rendering  
-data integration systems  
+planetary weather visualization  
+time-shift forecasting systems  
+anime-style interface design  
+data integration architecture
 
-Future development will focus on building interactive prototypes.
+Future work will explore interactive prototypes.
 
 ---
 
@@ -341,7 +296,7 @@ https://github.com/GaneshEiGo
 
 # Full Project Documentation
 
-Detailed project documentation:
+Detailed design documentation:
 
 [Link]
 
@@ -349,5 +304,5 @@ Detailed project documentation:
 
 Ei Climate
 
-Explore the Atmosphere.
-Understand the Planet.
+Explore the Atmosphere  
+Understand the Planet
